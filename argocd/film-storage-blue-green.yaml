@@ -3,7 +3,6 @@ kind: Application
 metadata:
   name: film-storage-blue-green
   namespace: user14-gitops-argocd
-  templateName: film-storage-analysis-template
 spec:
   destination:
     namespace: user14-blue-green
